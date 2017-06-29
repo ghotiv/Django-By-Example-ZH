@@ -1296,7 +1296,7 @@ Celery 需要一个消息代理（message broker）来管理请求。这个代�
 如果你用的是 Linux，你可以用下面这个命令安装 RabbitMQ ：
 
 ```shell
-apt-get install rabbitmg
+apt-get install rabbitmq
 ```
 **（译者@夜夜月注：这是debian系linux的安装方式）**
 
@@ -1306,7 +1306,7 @@ https://www.rabbitmq.com/download.html
 在安装它之后，使用下面的命令执行 RabbitMQ：
 
 ```shell
-rabbitmg-server
+rabbitmq-server
 ```
 
 你将会在最后一行看到这样的输出：
